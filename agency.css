@@ -121,6 +121,7 @@ nav {
 .service-container {
     display: flex;
     align-items: center;
+    padding-bottom: 90px;
 }
 
 .service-author {
@@ -160,17 +161,95 @@ nav {
     text-align: center;
     border-radius: 5px;
     margin: 10px;
-    padding: 50px;
-    width: 150px;
-    height: 150px;
+    padding: 40px;
+    width: 120px;
+    height: 120px;
     background-color: #fff;
     color: black;
 }
 
-.service-img {
+.icon {
     width: 90px;
 }
 
 .tow-service {
     display: flex;
+}
+
+/* appointment start */
+.appointment-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+    color: white;
+    border-radius: 30px;
+    margin-top: -100px;
+}
+
+.appointment-contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-right: 2px solid rgb(156, 155, 155);
+}
+
+.appointment-desc {
+    width: 450px;
+}
+
+.appointment-btn {
+    padding: 13px 30px;
+    border: 0;
+    border-radius: 30px;
+}
+
+/* blog and fun section start */
+.blog-container {
+    margin: 100px 50px;
+}
+
+.blog-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.blog-desc {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 320px;
+    height: 430px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.card-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.card-desc {
+    font-size: 18px;
 }
