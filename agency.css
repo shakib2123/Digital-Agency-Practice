@@ -84,7 +84,7 @@ nav {
 /* service section start */
 .service-container {
     height: 100vh;
-    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgb(0, 0, 0), rgb(50, 50, 50));
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     color: rgb(217, 215, 215);
     padding-left: 10px;
@@ -257,7 +257,7 @@ nav {
 /* footer start */
 footer {
     padding: 60px;
-    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgb(0, 0, 0), rgb(39, 39, 35));
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     background-size: cover;
     color: white;
