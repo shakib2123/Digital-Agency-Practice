@@ -2,8 +2,9 @@
     margin: 0;
 }
 
+/* navbar section start from here */
 nav {
-    background-color: rgb(164, 163, 163);
+    background-color: rgb(192, 192, 192);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,4 +34,49 @@ nav {
 .nav-menu a {
     text-decoration: none;
     color: black;
+}
+
+/* banner section start from here */
+.banner-container {
+    height: 100vh;
+    background-image: url(./asset/image/background.jpg), linear-gradient(rgb(77, 77, 77), rgb(54, 54, 54));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner-items {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.banner-title {
+    font-size: 90px;
+}
+
+.text-primary {
+    color: red;
+}
+
+.banner-description {
+    font-size: 20px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.banner-btn {
+    padding: 15px 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.bg-primary {
+    background-color: red;
+    color: white;
 }
